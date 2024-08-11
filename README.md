@@ -6,7 +6,7 @@
 <sub>Logo made by <a href="https://www.wix.com/logo/maker/" title="Wix logo maker"> </sub>
 </p>
 
-# RightMove smart fitness vest 🌬
+## RightMove smart fitness vest 🌬
 
 > This innovative wearable device 
 
