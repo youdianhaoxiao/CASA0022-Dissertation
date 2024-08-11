@@ -1,5 +1,5 @@
 # CASA0022-Dissertation
-<p align='center'><img width="300px" style="display:block; margin:0 auto;" src="https://github.com/youdianhaoxiao/CASA0022-Dissertation/logo.png" alt="D1">
+<p align='center'><img width="300px" style="display:block; margin:0 auto;" src="https://github.com/youdianhaoxiao/CASA0022-Dissertation/blob/main/logo.png" alt="D1">
 </p>
 
 <p align='center'>
