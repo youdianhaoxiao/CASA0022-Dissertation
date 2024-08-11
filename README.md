@@ -1,1 +1,42 @@
 # CASA0022-Dissertation
+<p align='center'><img width="300px" style="display:block; margin:0 auto;" src="https://github.com/youdianhaoxiao/CASA0022-Dissertation/logo.png" alt="D1">
+</p>
+
+<p align='center'>
+<sub>Logo made by <a href="https://www.wix.com/logo/maker/" title="Wix logo maker"> </sub>
+</p>
+
+# RightMove smart fitness vest 🌬
+
+> This innovative wearable device 
+
+## Video Demo
+Click on the image below to watch the demo video:
+
+
+[![IMAGE ALT TEXT HERE]()
+
+
+## Unity App APK 📦
+
+Feel free to download the app at 
+
+
+### Plugins
+
+- 
+
+
+
+### Project setup
+
+```
+pnpm i
+```
+
+### Use it
+
+```
+pnpm run dev
+```
+
