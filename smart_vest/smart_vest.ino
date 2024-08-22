@@ -153,9 +153,9 @@ void setup(void) {
 void loop() {
 
       server.handleClient();
-      if (secondChanged()) {
-        sendMQTT();
-      }
+
+      sendMQTT();
+
       client.loop();
       //screenTime();
 
@@ -184,36 +184,7 @@ void startWifi() {
   Serial.println(WiFi.localIP());
 }
 
-// void barCallback1(DFRobot_UI:: sBar_t &obj){
-//     //Enable the progress bar plus 1 in each time, it enters the callback function.
-//   delay(50);
-//   obj.setValue(bat_percentage);
-// 	//if(value1 < 100) value1++;
-// }
 
-// void screenTime(){
-  
-//     screen.setTextColor(0x30FF);
-//     screen.fillScreen(COLOR_RGB565_BLACK);
-//     screen.setTextSize(3);
-//     screen.setCursor(30, 30);
-//     String Date = String(GB.dateTime("Y-m-d"));
-//     screen.println(Date);
-//     screen.setCursor(30, 60);
-//     String Time = String(GB.dateTime("H:i"));
-//     screen.println(Time);
-//     screen.setTextColor(COLOR_RGB565_GREEN);
-//     screen.setTextSize(2.3);
-//     screen.setCursor(20, 100);
-//     screen.print("Battery Capacity");
-//     screen.println(":");
-//     screen.setTextSize(3);
-//     screen.setCursor(70, 130);
-//     screen.print(bat_percentage);
-//     screen.println("%");
-//     delay(20000);
-  
-// }
 void syncDate() {
   // get real date and time
   waitForSync();
@@ -271,7 +242,7 @@ void syncDate() {
 void firebasepush(void){
 
   static unsigned long printTimepoint = millis();
-  if (millis() - printTimepoint > 1000U) {
+  if (millis() - printTimepoint > 100U) {
     printTimepoint = millis();
 
     String documentPath = String(GB.dateTime("Y-m-d")) + "/" + String(GB.dateTime("H:i:s"));
@@ -392,9 +363,9 @@ void sendMQTT() {
   }
   client.loop();
 
-  // static unsigned long printTimepoint = millis();
-  // if (millis() - printTimepoint > 60000U) {
-  //   printTimepoint = millis();
+  static unsigned long printTimepoint = millis();
+  if (millis() - printTimepoint > 100U) {
+    printTimepoint = millis();
 
   //   String documentPath = String(GB.dateTime("Y-m-d")) + "/" + String(GB.dateTime("H:i"));
 
@@ -528,8 +499,8 @@ void sendMQTT() {
     Serial.print("EMG: ");
     Serial.println(msg);
     client.publish("student/ucfnega/EMG", msg);
-  // } else {
-  //     Serial.println("Error");
-  //   }
-  delay(500); 
+  } else {
+      Serial.println("Error");
+    }
+  // delay(500); 
 }
