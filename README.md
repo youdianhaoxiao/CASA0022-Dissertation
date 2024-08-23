@@ -29,6 +29,12 @@ Feel free to download the app at [Android APK](https://github.com/youdianhaoxiao
   * `MPU6050` IMU enclosure design
   * `3D human model` with dumbbell and skeleton
 
+* Mahine learning models
+ * `XGB Classifier` training code
+ * `FCNN`training code
+ * `data processing` code
+ * dataset
+
 * Unity
   * `Assets` Folder
   * `Packages`
