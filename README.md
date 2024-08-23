@@ -11,9 +11,7 @@
 > This innovative wearable device 
 
 ## Video Demo
-Click on the image below to watch the demo video:
 
-https://youtu.be/TsnEZo_e7kU
 
 
 
