@@ -3,7 +3,7 @@
 </p>
 
 <p align='center'>
-<sub>Logo made by [Wix logo maker]("https://www.wix.com/logo/maker/") </sub>
+<sub> Logo made by [Wix logo maker](https://www.wix.com/logo/maker) </sub>
 </p>
 
 ## RightMove smart fitness vest 🌬
