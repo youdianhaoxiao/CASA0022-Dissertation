@@ -21,15 +21,3 @@ Feel free to download the app at [Android APK](https://github.com/youdianhaoxiao
 > The Unity application will display the user's arm movements in real-time as they wear the IMU sensors and will recognize the Dumbbell Preacher Curl exercise. It will provide alerts for incorrect muscle engagement and improper posture. Additionally, based on the sensor readings compared to the preset correct sensor values, the application will guide the user to achieve the optimal posture through textual feedback and model demonstrations.
 
 
-### Project setup
-
-```
-pnpm i
-```
-
-### Use it
-
-```
-pnpm run dev
-```
-
