@@ -1,0 +1,67 @@
+Fitness club
+
+This project works in HDRP, URP and Standard Render Pipeline.
+To install HDRP click on FitnessClub(HDRP).unitypackage in HDRP_URP_support folder.
+To install URP click on FitnessClub(URP).unitypackage in HDRP_URP_support folder.
+
+Dont forget to install HDRP in your project and place HDRenderPipelineAsset in Scriptable Render Pipeline Settings in Graphics tab of Project Settings.
+
+Project includes (46) high quality assets, created for AAA quality visuals.
+High quality textures - most 2048 pixels, and some 1024 pixels (for smaller assets) (Albedo, Mask and Normal map)
+Most models have 2 LODs
+
+Triangle count for models depends on complexity of the mesh, highest one being 9708 triangles.
+For more information about triangle count please read documentation.
+
+
+Air conditioner LOD0 - 3380 tris, LOD1 - 2319 tris
+Ball 724 tris
+Barbell LOD0 - 352 tris, LOD1 - 176 tris
+Barbell_02 (Big, Medium, Small) LOD0 - 1664 tris, LOD1 - 688 tris
+Barbell_rack 752 tris.
+Bench_press LOD0 - 3088 tris, LOD1 - 2106 tris
+Bench_press_top 684 tris
+Ceiling_fan 
+	Ceiling_fan_part_01_LOD0 - 998 tris, LOD1 - 569 tris
+	Ceiling_fan_part_02 192 tris
+Ceiling_truss_big 590 tris
+Ceiling_truss_small 64 tris
+Ceiling_wire_01 822 tris
+Ceiling_wire_02 488 tris
+Column_01 266 tris
+Column_02 1084 tris
+Dip_Station LOD0 - 1124 tris, LOD1 - 796 tris
+Door_01 930 tris
+Door_02 1804 tris
+Dumbbell_01 LOD0 - 1008 tris, LOD1 - 322 tris
+Dumbbell_02 LOD0 - 1008 tris, LOD1 - 322 tris
+Dumbbell_03 LOD0 - 1008 tris, LOD1 - 322 tris
+Dumbbell_stand LOD0 - 6244 tris, LOD1 - 4278 tris
+DumbbellStand02 LOD0 - 9708 tris, LOD1 - 4376 tris
+FitnessStep LOD0 - 1752 tris, LOD1 - 950 tris
+Floor_mat 110 tris
+Jump_box 756 tris
+Lamp_01 510 tris
+Mirror_frame 276 tris
+Mirror 6 tris
+Small_mirror 10 tris
+PowerRack LOD0 - 2876 tris, LOD1 - 1920 tris
+Radiator 1484 tris
+Rowing_machine LOD0 - 7410 tris, LOD1 - 3946 tris
+Speaker 1176 tris
+Treadmill LOD0 - 3498 tris, LOD1 - 1728 tris
+TV LOD0 - 856 tris, LOD1 - 548 tris
+Wall 64 tris
+Weight_bench LOD0 - 3088 tris, LOD1 - 2106 tris
+WeightPlateRack LOD0 - 1742 tris, LOD1 - 925 tris
+WeightPlate_01  LOD0 - 1024 tris, LOD1 - 448 tris
+WeightPlate_02  LOD0 - 1744 tris, LOD1 - 776 tris
+WeightPlate_03  LOD0 - 1696 tris, LOD1 - 736 tris
+Window
+	Wall_window 92 tris
+	Window_frame 664 tris
+	Glass 4 tris
+Yoga_Mat LOD0 - 1440 tris, LOD1 - 636 tris
+Yoga_Mat_roll LOD0 - 4244 tris, LOD1 - 1420 tris, LOD2 - 716 tris
+
+1 script to rotate ceiling fan

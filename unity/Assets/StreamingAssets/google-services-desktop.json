@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1022377376050",
+    "firebase_url": "https://unity-login-5ac4c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "unity-login-5ac4c",
+    "storage_bucket": "unity-login-5ac4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022377376050:android:f84afccd6addcf564e7f2b",
+        "android_client_info": {
+          "package_name": "com.Company.Myproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJk6kT2tOx0nhSy5GUN-U6dNqR-Ub9si4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
