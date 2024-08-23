@@ -12,7 +12,7 @@
 
 ## Video Demo
 
-
+[![Watch the video](https://imgur.com/stIQ0eO.png)](https://youtu.be/TsnEZo_e7kU)
 
 
 ## Unity App APK 📦
