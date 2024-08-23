@@ -17,7 +17,7 @@
 
 ## Unity App APK 📦
 
-Feel free to download the app at [Android APK]
+Feel free to download the app at [Android APK](https://github.com/youdianhaoxiao/CASA0022-Dissertation/blob/main/smart_vest.apk)
 
 
 ### Plugins
