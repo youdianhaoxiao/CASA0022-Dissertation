@@ -3,12 +3,12 @@
 </p>
 
 <p align='center'>
-<sub>Logo made by <a href="https://www.wix.com/logo/maker/" title="Wix logo maker"> </sub>
+<sub>Logo made by [Wix logo maker]("https://www.wix.com/logo/maker/") </sub>
 </p>
 
 ## RightMove smart fitness vest 🌬
 
-> This innovative wearable device 
+> This innovative wearable Smart Fitness Vest is built by a Nodemcu ESP8266 module, a Lipo battery, a battery rechargable module and a RF switch, is embedded with three Inertial Measurement Units (IMUs) and an Electromyography (EMG) sensor.
 
 ## Video Demo
 
@@ -18,12 +18,7 @@
 ## Unity App APK 📦
 
 Feel free to download the app at [Android APK](https://github.com/youdianhaoxiao/CASA0022-Dissertation/blob/main/smart_vest.apk)
-
-
-### Plugins
-
-- 
-
+> The Unity application will display the user's arm movements in real-time as they wear the IMU sensors and will recognize the Dumbbell Preacher Curl exercise. It will provide alerts for incorrect muscle engagement and improper posture. Additionally, based on the sensor readings compared to the preset correct sensor values, the application will guide the user to achieve the optimal posture through textual feedback and model demonstrations.
 
 
 ### Project setup
